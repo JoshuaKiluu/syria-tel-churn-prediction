@@ -71,31 +71,25 @@ Evaluation Metrics: Focus on Recall for churn class (1) to minimize false negati
 
 ## Results
 Model	Accuracy	Recall (Churn)	Precision (Churn)	F1-Score (Churn)
-Logistic Regression	91%	0.71	0.68	0.69
-Decision Tree	93%	0.73	0.79	0.76
-Random Forest	94%	0.76	0.80	0.78
-XGBoost	95%	0.79	0.82	0.80y
+Logistic Regression	76%	0.74	0.35	0.48
+Decision Tree	87%	0.71	0.55	0.62
+Random Forest	91%	0.74	0.69	0.71
+XGBoost	94%	0.76	0.80	0.78
 
 ## Model Performance Insights
 
 * XGBoost is the best performing model overall, achieving the highest accuracy, recall, precision, and F1-score for the churn class.
 
-* Random Forest comes in second, showing strong recall and precision with a slight drop compared to XGBoost.
 
-* Decision Tree outperforms Logistic Regression, indicating tree-based models capture non-linear relationships better.
 
-* Logistic Regression provides a strong baseline but lags behind tree-based methods on recall and F1-score for churn.
+## Conclusion  
 
-## Conclusion
-The evaluation of four models — Logistic Regression, Decision Tree, Random Forest, and XGBoost — revealed that tree-based ensemble methods consistently outperform simpler models.
+* Customers with international plans and frequent customer service calls are at significantly higher risk of churn, likely due to higher charges or unresolved complaints.
 
-* XGBoost achieved the best overall performance, with the highest accuracy (95%), recall (0.79), precision (0.82), and F1-score (0.80) for the churn class.
+ * High daytime usage and total charges correlate with churn, possibly indicating heavy but dissatisfied users..
 
-* Random Forest also performed strongly, offering robust recall and precision while being slightly simpler to interpret.
+* XGBoost achieved the best overall performance, with the highest accuracy (94%), recall (0.76), precision (0.80), and F1-score (0.78) for the churn class.
 
-* Decision Tree outperformed Logistic Regression, indicating non-linear relationships are significant in predicting churn.
-
-* Logistic Regression remains a good baseline but lags behind in churn recall and F1-score.
 
 ## Next Steps
 
