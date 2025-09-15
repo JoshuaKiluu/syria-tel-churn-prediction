@@ -1,4 +1,5 @@
-# Churn Analysis and Preiction for SyriaTel
+# Churn Analysis and Prediction for SyriaTel
+
 ## Overview
 SyriaTel, a leading telecommunications provider, is grappling with increasing customer churn rates that threaten revenue stability and market share. This project develops a predictive churn model to identify customers at high risk of leaving, and provides actionable insights to help the company improve retention strategies.
 
